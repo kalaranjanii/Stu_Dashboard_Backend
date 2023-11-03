@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/api/employees", employeeRoutes);
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/dashboard", {
+mongoose.connect("mongodb://127.0.0.1:27017/kitkat_pro", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
